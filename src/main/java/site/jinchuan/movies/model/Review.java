@@ -1,4 +1,4 @@
-package site.jinchuan.movies.models;
+package site.jinchuan.movies.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -16,4 +16,8 @@ public class Review {
     @Id
     private ObjectId id;
     private String body;
+
+    public Review(String body) {
+        this.body = body;
+    }
 }

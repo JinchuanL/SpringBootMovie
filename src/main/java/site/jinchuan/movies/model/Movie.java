@@ -1,4 +1,4 @@
-package site.jinchuan.movies.models;
+package site.jinchuan.movies.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -22,7 +22,7 @@ import java.util.List;
 
 */
 
-@Document(collation = "movies")
+@Document(collection = "movies")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
